@@ -1,5 +1,6 @@
 import React from 'react';
+import { Text } from '@mantine/core';
 
 export const Dashboard = () => {
-  return <h1>Hello world! </h1>;
+  return <Text>Hello world! </Text>;
 };
