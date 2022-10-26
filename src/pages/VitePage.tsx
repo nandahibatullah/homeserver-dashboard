@@ -1,4 +1,4 @@
-import { Center, Container } from '@mantine/core';
+import { Container } from '@mantine/core';
 import React, { useState } from 'react';
 
 import reactLogo from '../assets/react.svg';
