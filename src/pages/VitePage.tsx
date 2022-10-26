@@ -1,3 +1,4 @@
+import { Center, Container } from '@mantine/core';
 import React, { useState } from 'react';
 
 import reactLogo from '../assets/react.svg';
@@ -6,7 +7,14 @@ export const VitePage = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
+    <Container
+      style={{
+        display: 'grid',
+        alignContent: 'center',
+        height: '100%',
+        textAlign: 'center',
+      }}
+    >
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -25,8 +33,8 @@ export const VitePage = () => {
         </p>
       </div>
       <p className="read-the-docs">
-        lick on the Vite and React logos to learn more
+        click on the Vite and React logos to learn more
       </p>
-    </div>
+    </Container>
   );
 };
